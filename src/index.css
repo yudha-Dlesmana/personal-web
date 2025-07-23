@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+.bg-hero {
+  background-image: url('assets/backgound-personal-web.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,12 +1,21 @@
-import gabsi from "../assets/gabsisubang.png"
+import gabsi from "../../assets/gabsisubang.png"
+
+export function WorkExperience(){
+  return(
+    <div id="Work Experience" className="bg-[#F9FAFB] px-[10vw] pt-[3vw] space-y-3">
+      <h1 className="font-semibold text-2xl text-[#0A2A3A]">Work Experience</h1>
+      <AtletBridge/>
+      </div>
+  )
+}
 
 export function AtletBridge(){
   return(
     <div className="flex gap-10">
-      <div>
-        <img src={gabsi} className="size-30"/>
+      <div className="w-35 h-35 flex items-center justify-center">
+        <img src={gabsi} className="h-30"/>
         </div>
-      <div>
+      <div className="w-2xl">
         <h1 className="flex justify-between items-center">
           <div>
             <span className="text-xl font-semibold flex justify-between items-center text-[#0A2A3A]">Atlet Bridge </span> 
